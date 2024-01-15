@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30%;
+    margin: 10%;
 }
 button{
     width: 50px;
@@ -15,12 +15,13 @@ button{
 #display{
     width: 150px;
     height: 150px ;
+    margin: 50px;
 }
 #add{
     width: 40px;
     height: 40px;
     position: absolute;
-    left: 290px;
+    left: 400px;
     top: 300px;
     border: 2px solid orangered;
     color:bisque;
@@ -34,7 +35,7 @@ button{
     height: 40px;
     position: absolute;
     /* left: 0px; */
-    margin-left: 20px;
+    margin-left: -40px;
     top: 300px;
     border: 2px solid orangered;
     color:bisque;
@@ -45,7 +46,8 @@ button{
     text-align: center;
 }
 #reset{
-    margin: 20px;
+    /* margin: 20px 20px; */
+    margin-left: -400px ;
     width: 60px;
     height: 40px;
     border: 2px solid palevioletred;
@@ -61,6 +63,9 @@ button{
     border-radius: 10px;
     /* border-top: 5px solid blue; */
     /* margin-top: 20px; */
+    position: absolute;
+    top: 180px;
+    left: 450px;
     background-color: rgba(250, 242, 3,0.3);
     animation-name: rotate;
     animation-duration: 2s;
